@@ -1,5 +1,6 @@
 <script lang="ts">
   import { invoke } from "@tauri-apps/api/core";
+  import CircelJerker from "../comps/circelJerker.svelte";
 
   let name = $state("");
   let greetMsg = $state("");
@@ -21,4 +22,10 @@
   {#if greetMsg}
     <p>{greetMsg}</p>
   {/if}
+  <div class="mt-3 justify-center items-center flex flex-col">
+  <CircelJerker curr={50} max={100} radius={50} len={270} />
+    <div class="bg-CCPVVihte text-CCPBlack text-4xl p-2 w-fit self-center -translate-y-56">
+      50/100
+    </div>
+  </div>
 </main>
