@@ -11,7 +11,7 @@
   }
 </script>
 
-<main class="bg-CCCPBlack text-CCCPVVihte p-4 h-screen flex flex-col">
+<main class="bg-CCPBlack text-CCPVVihte p-4 h-screen flex flex-col">
   <h1 class="text-4xl">Page</h1>
   <form onsubmit={greet}>
     <label for="name">Name:</label>
